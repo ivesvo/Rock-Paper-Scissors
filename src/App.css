@@ -17,44 +17,139 @@
   background-color: teal;
 } */
 
+
 .App {
   flex: 1;
   display: flex;
+  flex-direction: row;
+  background-image: url(https://i.ibb.co/tpfSG8Q/photo-1503117388374-af436bb2be2c.jpg);
+  background-repeat: no-repeat;
   min-height: 100vh;
   text-align: center;
-  background-color: #e9ebee;
+  font-family: Chivo;
+
+  
 }
 .box {
-  font-family: Salvaje Display;
+  font-family: Pilowlava;
   flex: 1;
   display: flex;
-  margin: 100px;
+  margin: 20px;
   font-size: 3em;
   padding: 0 40px;
-  font-weight: 300;
-  width: 100px;
- 
+  width: 350px;
+  height: 350px;
   text-align: center;
-  border-radius: 25px;
+  border-radius: 15px;
   flex-direction: column;
   align-items: center;
   border: 1px solid black;
   background-color: white;
   justify-content: space-around;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+.cards{
+  display: center;
+}
+
 img {
-  width: 300px;
-  height: 300px;
+  width: 180px;
+  height: 180px;
 }
+
 h1 {
-  font-size: 50px;
+  font-size: 35px;
 }
 .winner {
-  color: lightgreen;
-  border: 10px solid 
+  /* background-color: lightgreen; */
+  border: 10px solid  lightgreen;
 }
-.loser {
-  color: #c4bcbc;
-  border: 10px solid 
+.tie {
+  /* color: #c4bcbc; */
+  border: 10px solid #e4dcdc;
+}
+
+.loser{
+  /* background-color: salmon; */
+  border: 10px solid salmon;
+}
+.start{
+  border: 10px solid tan;}
+
+.h4{
+  font-size: 25px;
+  
+}
+
+li{
+  list-style-type: none;
+}
+
+.WON{
+  color: lightgreen;
+}
+.LOSE{
+  color:  salmon;
+}
+.GAME{
+  color: black;
+}
+
+
+.col-8{
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+
+
+.btn{
+  color: black;
+  background-color: white;
+  margin: 3px;
+  border-color:transparent;
+  border-radius: 15px;
+}
+
+.btn:hover{
+  background-color: tan;
+  border-color: transparent;
+
+}
+
+.btn:disabled{
+  background-color: #e4dcdc;
+  border-color: transparent;
+}
+
+.btn:focus{
+  background-color: tan;
+  border-color: transparent;
+}
+
+.nameArea{
+  margin: 15px;
+}
+
+input{
+  width: 200px;
+  height: 36px;
+  border-radius: 15px;
+  border-color: transparent;
+  text-align:center;
+  
+  
+}
+/* 
+::-webkit-input-placeholder {
+  text-align: center;
+} */
+
+.components .history{
+  text-align: left;
+  margin-left: 100px;
+
 }
