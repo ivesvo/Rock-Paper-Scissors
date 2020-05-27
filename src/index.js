@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import './fonts/Fonts_webfonts_Pilowlava-Regular.woff'
+import './fonts/ChivoLight.ttf'
 ReactDOM.render(
   <React.StrictMode>
     <App />
