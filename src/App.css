@@ -16,7 +16,10 @@
 .teal{
   background-color: teal;
 } */
-
+@font-face {
+  font-family: 'Pilowlava';
+  src: local('Pilowlava'), url(./fonts/Fonts_webfonts_Pilowlava-Regular.woff) format('woff');
+}
 
 .App {
   flex: 1;

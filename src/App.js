@@ -1,11 +1,20 @@
 import React, { useState } from "react";
 // import logo from './logo.svg';
 import './App.css';
-import './components/Pilowlava Regular.otf'
-import './components/ChivoLight.ttf'
+import './fonts/Fonts_webfonts_Pilowlava-Regular.woff'
+import './fonts/ChivoLight.ttf'
 import Boxes from './components/Boxes'
 
-
+// export default createGlobalStyle`
+//     @font-face {
+//         font-family: 'Pilowlava';
+//         src: local('Font Name'), local('FontName'),
+//         url(${NameOfYourFontWoff2}) format('woff2'),
+//         url(${NameOfYourFontWoff}) format('woff');
+//         font-weight: 300;
+//         font-style: normal;
+//     }
+// `;
 export const CHOICES = {
   scissors: {
     name: "scissors",
