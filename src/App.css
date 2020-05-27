@@ -20,7 +20,7 @@
   font-family: 'Pilowlava';
   src: local('Pilowlava'), url(./fonts/Fonts_webfonts_Pilowlava-Regular.woff) format('woff');
   font-family: 'Chivo';
-  src: local('Chivo'), url(./fonts/ChivoLight.ttf) format ('ttf');
+  src: local('Chivo'), url(./fonts/ChivoLight.ttf) format('truetype');
 }
 
 .App {
